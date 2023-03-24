@@ -1,0 +1,80 @@
+{
+  "MyBar": {
+    "QQClick": {
+      "message0": "QQ群号：",
+      "message1": "已复制到剪贴板",
+      "message2": "复制QQ群号失败"
+    }
+  },
+  "AppVue": {
+    "Nstep1": "主页",
+    "Nstep2": "输入输出",
+    "Nstep3": "超分设置",
+    "Nstep3_1": "选择超分辨率模型和参数",
+    "Nstep4": "压制设置",
+    "Nstep4_1": "FFmpeg压制视频的参数",
+    "Nstep5": "交付"
+  },
+  "HomeView": {},
+  "InputAndOutput": {
+    "showoutputpathNotification": "当前输出路径",
+    "setoutputpathM": "设置输出路径成功",
+    "setoutputpathM_1": "设置输出路径失败",
+    "setoutputpathM_2": "请检查路径合法性",
+    "uploadfileloadinginfo": "上传中...",
+    "removefileNotification": "移除文件",
+    "NButtonSetoutputpathM": "设置输出路径",
+    "NButtonShowInputFileList": "查看",
+    "NUploadDragger": "拖动视频文件或文件夹到该区域",
+    "NUploadDragger_1": "请确保是正确的视频格式"
+  },
+  "SuperResolution": {
+    "enableSRNotification": "开启超分辨率",
+    "changeNCNNNotification": "NCNN 是一个跨平台的高性能神经网络前向计算框架",
+    "changePYTORCHNotification": "当前平台 PyTorch 暂不支持",
+    "changePYTORCHNotification_1": "PyTorch 是世界上最好的深度学习库，可以轻松地实现各种神经网络结构",
+    "changeTENSORRTNotification": "当前平台 TensorRT 暂不支持",
+    "changeTENSORRTNotification_1": "TensorRT 是一个用于深度学习推理的高性能推理引擎，可以在 Nvidia GPU 上实现高性能推理",
+    "enableHalfPrecisionNotification": "半精度",
+    "enableHalfPrecisionNotification_1": "建议RTX显卡开启",
+    "showSrAlgorithmNotification_REALCUGAN": "Real CUGAN 是一个优秀的超分辨率算法，适用于动漫图像超分辨率",
+    "NSwitchEnableSR": "开启超分辨率",
+    "NSwitchEnableHalfPrecision": "半精度",
+    "NButtonGPU": "负载显卡",
+    "inferEngineSwitch": "选择推理引擎",
+    "NButtonSrAlgorithm": "算法",
+    "NButtonSrModel": "模型",
+    "NButtonCropNums": "切割大小",
+    "NButtonAlphaValue": "强度参数"
+  },
+  "EncodeParams": {
+    "changeEnableCRFNotification": "数值越小，画质越好，但文件体积越大",
+    "changeEnableCRFNotification_1": "代表码率；数值越大，画质越好，但文件体积越大",
+    "changeEncodeAudioNotification": "重编码音频",
+    "changeEncodeAudioNotification_1": "重编码音频，可以改变音频的编码格式、码率、采样率等, 兼容性更好",
+    "changeEncodeAudioNotification_2": "保留原始音频",
+    "changeEncodeAudioNotification_3": "保留原始音频，不进行任何处理，请确保原始音频的编码格式与目标视频容器兼容",
+    "changeDIYEncodeParamsNotification": "自定义编码参数",
+    "changeDIYEncodeParamsNotification_1": "自定义编码参数，可以改变编码参数，但是请确保你知道你在做什么",
+    "changeDIYEncodeParamsNotification_2": "使用默认编码参数",
+    "NCardTitle": "视频、音频编码设置",
+    "NButtonVideoEncoder": "编码格式",
+    "NButtonFFmpegPreset": "质量预设",
+    "NButtonVideoContainer": "视频容器",
+    "NButtonEncodeAudio": "重编码音频",
+    "NButtonDIYEncodeParams": "自定义压制参数"
+  },
+  "StartStart": {
+    "showEXITcodeNotification": "渲染完成",
+    "showEXITcodeNotification_1": "渲染终止",
+    "showSTARTNotification": "启动渲染",
+    "showSTARTNotification_1": "渲染任务正在进行中",
+    "showSTARTNotification_2": "启动渲染",
+    "showSTARTNotification_3": "启动渲染成功",
+    "showDEBUGNotification": "已生成配置文件",
+    "showENDNotification": "终止任务",
+    "showENDNotification_1": "终止任务成功",
+    "NButtonStart": "启动渲染",
+    "NButtonEnd": "终止任务"
+  }
+}

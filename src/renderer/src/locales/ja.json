@@ -1,0 +1,80 @@
+{
+  "MyBar": {
+    "QQClick": {
+      "message0": "QQグループID：",
+      "message1": "クリップボードにコピーされました",
+      "message2": "QQグループIDのコピーに失敗しました"
+    }
+  },
+  "AppVue": {
+    "Nstep1": "ホーム",
+    "Nstep2": "入出力",
+    "Nstep3": "SR 設定",
+    "Nstep3_1": "スーパーレゾリューションモデルとパラメータを選択",
+    "Nstep4": "圧縮設定",
+    "Nstep4_1": "FFmpegビデオ圧縮のパラメーター",
+    "Nstep5": "Start"
+  },
+  "HomeView": {},
+  "InputAndOutput": {
+    "showoutputpathNotification": "現在の出力パス",
+    "setoutputpathM": "出力パスを設定しました",
+    "setoutputpathM_1": "出力パスの設定に失敗しました",
+    "setoutputpathM_2": "パスの合法性を確認してください",
+    "uploadfileloadinginfo": "アップロード中...",
+    "removefileNotification": "ファイルを削除",
+    "NButtonSetoutputpathM": "出力パスを設定する",
+    "NButtonShowInputFileList": "表示する",
+    "NUploadDragger": "この領域にビデオファイルまたはフォルダをドラッグ",
+    "NUploadDragger_1": "正しいビデオフォーマットであることを確認してください"
+  },
+  "SuperResolution": {
+    "enableSRNotification": "スーパーレゾリューションを有効にする",
+    "changeNCNNNotification": "NCNNは高性能なニューラルネットワーク推論計算フレームワークです",
+    "changePYTORCHNotification": "現在このプラットフォームではPyTorchはサポートされていません",
+    "changePYTORCHNotification_1": "PyTorchは世界最高の深層学習ライブラリであり、様々なニューラルネットワーク構造を簡単に実装できます",
+    "changeTENSORRTNotification": "現在このプラットフォームではTensorRTはサポートされていません",
+    "changeTENSORRTNotification_1": "TensorRTは、Nvidia GPU上で高性能の推論を実現できる、深層学習の高性能推論エンジンです。",
+    "enableHalfPrecisionNotification": "ハーフ精度",
+    "enableHalfPrecisionNotification_1": "RTXグラフィックスカードをオンにすることをお勧めします",
+    "showSrAlgorithmNotification_REALCUGAN": "Real CUGANは優れたスーパーレゾリューションアルゴリズムであり、アニメ画像のスーパーレゾリューションに適しています。",
+    "NSwitchEnableSR": "SRの有効化",
+    "NSwitchEnableHalfPrecision": "ハーフ精度",
+    "NButtonGPU": "GPU",
+    "inferEngineSwitch": "Inference Engine の 選択",
+    "NButtonSrAlgorithm": "アルゴリズム",
+    "NButtonSrModel": "モデル",
+    "NButtonCropNums": "Crop size",
+    "NButtonAlphaValue": "Alpha強度"
+  },
+  "EncodeParams": {
+    "changeEnableCRFNotification": "値が小さいほど画質が向上しますが、ファイルサイズが大きくなります。",
+    "changeEnableCRFNotification_1": "ビットレートを表します。値が大きいほど画質が良くなりますが、ファイルサイズが大きくなります。",
+    "changeEncodeAudioNotification": "オーディオの再エンコード",
+    "changeEncodeAudioNotification_1": "オーディオの再エンコードにより、オーディオのエンコード形式、ビットレート、サンプリングレートなどを変更し、互換性を向上させることができます。",
+    "changeEncodeAudioNotification_2": "元のオーディオを保持する",
+    "changeEncodeAudioNotification_3": "何も処理せずに元のオーディオを保持する場合は、元のオーディオのエンコード形式がターゲットビデオコンテナと互換性があることを確認してください。",
+    "changeDIYEncodeParamsNotification": "カスタムエンコードパラメータ",
+    "changeDIYEncodeParamsNotification_1": "エンコードパラメータをカスタマイズして変更できますが、何をしているか確認してください。",
+    "changeDIYEncodeParamsNotification_2": "デフォルトのエンコードパラメータを使用する ",
+    "NCardTitle": "ビデオ、オーディオエンコード設定",
+    "NButtonVideoEncoder": "エンコード形式",
+    "NButtonFFmpegPreset": "品質プリセット",
+    "NButtonVideoContainer": "ビデオコンテナ",
+    "NButtonEncodeAudio": "オーディオの再エンコード",
+    "NButtonDIYEncodeParams": "カスタム圧縮パラメータ"
+  },
+  "StartStart": {
+    "showEXITcodeNotification": "レンダリングが完了しました",
+    "showEXITcodeNotification_1": "レンダリングが中止されました",
+    "showSTARTNotification": "レンダリングを開始する",
+    "showSTARTNotification_1": "レンダリングタスクが進行中です",
+    "showSTARTNotification_2": "レンダリングを開始する",
+    "showSTARTNotification_3": "レンダリングの起動に成功しました。",
+    "showDEBUGNotification": "設定ファイルが生成されました",
+    "showENDNotification": "タスクを終了する",
+    "showENDNotification_1": "タスクが正常に終了しました",
+    "NButtonStart": "レンダリングを開始する",
+    "NButtonEnd": "タスクを終了する"
+  }
+}

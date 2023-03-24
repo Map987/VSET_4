@@ -1,0 +1,80 @@
+{
+  "MyBar": {
+    "QQClick": {
+      "message0": "QQ Group ID:",
+      "message1": "Copied to Clipboard",
+      "message2": "Failed to copy QQ Group ID"
+    }
+  },
+  "AppVue": {
+    "Nstep1": "Home",
+    "Nstep2": "Input",
+    "Nstep3": "SR Setting",
+    "Nstep3_1": "Select Super Resolution Model and Parameters",
+    "Nstep4": "Encode Setting",
+    "Nstep4_1": "Parameters for FFmpeg Video Encode",
+    "Nstep5": "Start"
+  },
+  "HomeView": {},
+  "InputAndOutput": {
+    "showoutputpathNotification": "Current output path",
+    "setoutputpathM": "Successfully set output path",
+    "setoutputpathM_1": "Failed to set output path",
+    "setoutputpathM_2": "Please check the legality of the path",
+    "uploadfileloadinginfo": "Uploading...",
+    "removefileNotification": "Remove file",
+    "NButtonSetoutputpathM": "Set output path",
+    "NButtonShowInputFileList": "View",
+    "NUploadDragger": "Drag video files or folders to this area",
+    "NUploadDragger_1": "Please make sure it is the correct video format"
+  },
+  "SuperResolution": {
+    "enableSRNotification": "Enable Super Resolution",
+    "changeNCNNNotification": "NCNN is a high-performance neural network inference computing framework",
+    "changePYTORCHNotification": "PyTorch is currently not supported on this platform",
+    "changePYTORCHNotification_1": "PyTorch is the best deep learning library in the world, and can easily implement various neural network structures",
+    "changeTENSORRTNotification": "TensorRT is currently not supported on this platform",
+    "changeTENSORRTNotification_1": "TensorRT is a high-performance inference engine for deep learning, which can achieve high-performance inference on Nvidia GPUs.",
+    "enableHalfPrecisionNotification": "Half Precision",
+    "enableHalfPrecisionNotification_1": "RTX graphics card is recommended to be turned on",
+    "showSrAlgorithmNotification_REALCUGAN": "Real CUGAN is an excellent super resolution algorithm, suitable for anime image super resolution.",
+    "NSwitchEnableSR": "Enable SR",
+    "NSwitchEnableHalfPrecision": "FP16",
+    "NButtonGPU": "GPU",
+    "inferEngineSwitch": "Select inference engine",
+    "NButtonSrAlgorithm": "Algorithm",
+    "NButtonSrModel": "Model",
+    "NButtonCropNums": "Crop size",
+    "NButtonAlphaValue": "Alpha Value"
+  },
+  "EncodeParams": {
+    "changeEnableCRFNotification": "The smaller the value, the better the picture quality, but the larger the file size",
+    "changeEnableCRFNotification_1": "Represent the bit rate; the larger the value, the better the picture quality, but the larger the file size",
+    "changeEncodeAudioNotification": "Encode audio",
+    "changeEncodeAudioNotification_1": "Encode audio can change the encode format, bit rate, sampling rate, etc. of the audio, and improve compatibility.",
+    "changeEncodeAudioNotification_2": "Keep the original audio",
+    "changeEncodeAudioNotification_3": "Keep the original audio without any processing. Please ensure that the encode format of the original audio is compatible with the target video container.",
+    "changeDIYEncodeParamsNotification": "Customize encoding parameters",
+    "changeDIYEncodeParamsNotification_1": "Customize encode parameters to change the encode parameters, but make sure you know what you are doing",
+    "changeDIYEncodeParamsNotification_2": "Use default encode parameters",
+    "NCardTitle": "Video and Audio Encode Settings",
+    "NButtonVideoEncoder": "Encode Format",
+    "NButtonFFmpegPreset": "Quality Preset",
+    "NButtonVideoContainer": "Video Container",
+    "NButtonEncodeAudio": "Encode Audio",
+    "NButtonDIYEncodeParams": "Custom Encode Parameters"
+  },
+  "StartStart": {
+    "showEXITcodeNotification": "Rendering completed",
+    "showEXITcodeNotification_1": "Rendering terminated",
+    "showSTARTNotification": "Start Rendering",
+    "showSTARTNotification_1": "Rendering task is in progress",
+    "showSTARTNotification_2": "Start Rendering",
+    "showSTARTNotification_3": "Successful rendering startup",
+    "showDEBUGNotification": "Configuration file generated",
+    "showENDNotification": "Terminate task",
+    "showENDNotification_1": "Task terminated successfully",
+    "NButtonStart": "Start Rendering",
+    "NButtonEnd": "Terminate Task"
+  }
+}
