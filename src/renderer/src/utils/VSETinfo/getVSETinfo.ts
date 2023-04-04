@@ -4,36 +4,36 @@ import { useSuperresolutionStore } from '../../store/superresolution'
 import { useGlobalsettingsStore } from '../../store/globalsettings'
 import { useEncodeParamsStore } from '../../store/encodeparams'
 
-const useGlobalsettings = useGlobalsettingsStore()
-const useSuperresolution = useSuperresolutionStore()
-const useEncodeParams = useEncodeParamsStore()
-
-const { SRgpuid } = storeToRefs(useGlobalsettings)
-const {
-  enablesr,
-  selectedInferEngine: SRselectedInferEngine,
-  halfprecision: SRhalfprecision,
-  cropnums,
-  alphavalue,
-  SrAlgorithm,
-  SrModel
-} = storeToRefs(useSuperresolution)
-const {
-  enableCRF,
-  bitrateorcrf,
-  videoEncoder,
-  ffmpegPreset,
-  videoContainer,
-  enableEncodeAudio,
-  audioEncoder,
-  enableDIYEncodeParams,
-  DIYEncodeParams
-} = storeToRefs(useEncodeParams)
-
 export class getVSETinfo {
   private readonly vsetInfo: VSETinfo
 
   constructor() {
+    const useGlobalsettings = useGlobalsettingsStore()
+    const useSuperresolution = useSuperresolutionStore()
+    const useEncodeParams = useEncodeParamsStore()
+
+    const { SRgpuid } = storeToRefs(useGlobalsettings)
+    const {
+      enablesr,
+      selectedInferEngine: SRselectedInferEngine,
+      halfprecision: SRhalfprecision,
+      cropnums,
+      alphavalue,
+      SrAlgorithm,
+      SrModel
+    } = storeToRefs(useSuperresolution)
+    const {
+      enableCRF,
+      bitrateorcrf,
+      videoEncoder,
+      ffmpegPreset,
+      videoContainer,
+      enableEncodeAudio,
+      audioEncoder,
+      enableDIYEncodeParams,
+      DIYEncodeParams
+    } = storeToRefs(useEncodeParams)
+
     this.vsetInfo = {
       SR: {
         enablesr: enablesr.value,
