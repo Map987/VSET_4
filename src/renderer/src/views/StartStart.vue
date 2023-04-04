@@ -18,7 +18,8 @@ import {
   useNotification
 } from 'naive-ui'
 import { useStartstartStore } from '../store/startstart.ts'
-import { getVSETinfo } from '../utils/VSETinfo'
+import { getVSETinfo, VSETinfo } from '../utils/VSETinfo'
+
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -163,7 +164,8 @@ async function showEND(): Promise<void> {
 
 function TESTTEST(): void {
   const a = new getVSETinfo()
-  console.log(a.getVSETinfo('./dqdqdqfqfq'))
+  const res: VSETinfo = a.getVSETinfo('./dqdqdqfqfq')
+  console.log(res)
 }
 </script>
 
