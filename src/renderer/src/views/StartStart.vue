@@ -18,6 +18,7 @@ import {
   useNotification
 } from 'naive-ui'
 import { useStartstartStore } from '../store/startstart.ts'
+import { getVSETinfo } from '../utils/VSETinfo'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -159,6 +160,11 @@ async function showEND(): Promise<void> {
     keepAliveOnHover: true
   })
 }
+
+function TESTTEST(): void {
+  const a = new getVSETinfo()
+  console.log(a.getVSETinfo('./dqdqdqfqfq'))
+}
 </script>
 
 <template>
@@ -188,6 +194,8 @@ async function showEND(): Promise<void> {
       </n-card>
     </n-space>
     <n-divider />
+
+    <n-button type="warning" round @click="TESTTEST"> TEST </n-button>
   </div>
 </template>
 
