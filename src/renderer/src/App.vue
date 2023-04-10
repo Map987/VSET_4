@@ -15,7 +15,13 @@ import {
   useOsTheme
 } from 'naive-ui'
 import { computed, onMounted, onBeforeMount, ref } from 'vue'
-import { HomeOutlined, RocketOutlined, SwapOutlined, TranslationOutlined } from '@vicons/antd'
+import {
+  HomeOutlined,
+  RocketOutlined,
+  SwapOutlined,
+  TranslationOutlined,
+  SettingOutlined
+} from '@vicons/antd'
 import { FilmOutline, MoonOutline, PaperPlaneOutline, SunnyOutline } from '@vicons/ionicons5'
 import { interpolateColor } from './utils/DarkModeColor'
 import { useGlobalsettingsStore } from './store/globalsettings'
@@ -97,6 +103,7 @@ const getTheme = computed(() => {
 })
 
 const StartupDarkmodeLock = ref(true)
+
 function switchTheme(): void {
   manualThemeLock.value = true
   if (manualTheme.value === null) {
@@ -180,17 +187,32 @@ function switchTheme(): void {
             <div class="dark-mode">
               <n-button text style="font-size: 32px" @click="switchTheme">
                 <div v-if="getTheme === null">
-                  <n-icon> <moon-outline /> </n-icon>
+                  <n-icon>
+                    <moon-outline />
+                  </n-icon>
                 </div>
                 <div v-else>
-                  <n-icon> <sunny-outline /> </n-icon>
+                  <n-icon>
+                    <sunny-outline />
+                  </n-icon>
                 </div>
               </n-button>
             </div>
             <div class="lang-switch">
               <n-button text style="font-size: 32px" @click="switchLanguage">
                 <div>
-                  <n-icon> <translation-outlined /> </n-icon>
+                  <n-icon>
+                    <translation-outlined />
+                  </n-icon>
+                </div>
+              </n-button>
+            </div>
+            <div class="vset-settings">
+              <n-button text style="font-size: 32px" @click="router.push('/vsettings')">
+                <div>
+                  <n-icon>
+                    <setting-outlined />
+                  </n-icon>
                 </div>
               </n-button>
             </div>
@@ -268,16 +290,26 @@ $global-color: v-bind(globalcolor);
 .dark-mode {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  left: 120px;
   text-align: left;
   width: 100%;
-  z-index: 10000;
+  z-index: 10002;
   overflow: visible;
 }
 
 .lang-switch {
   position: fixed;
-  bottom: 70px;
+  bottom: 20px;
+  left: 72px;
+  text-align: left;
+  width: 100%;
+  z-index: 10001;
+  overflow: visible;
+}
+
+.vset-settings {
+  position: fixed;
+  bottom: 20px;
   left: 22px;
   text-align: left;
   width: 100%;
@@ -292,6 +324,7 @@ $global-color: v-bind(globalcolor);
   padding: 20px;
   box-sizing: border-box;
 }
+
 .fade-enter-active {
   transition: opacity 0.5s ease-in-out;
 }

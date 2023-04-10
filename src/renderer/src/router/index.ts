@@ -4,6 +4,7 @@ import InputAndOutput from '../views/InputAndOutput.vue'
 import SuperResolution from '../views/SuperResolution.vue'
 import EncodeParams from '../views/EncodeParams.vue'
 import StartStart from '../views/StartStart.vue'
+import VSettings from '../views/VSettings.vue'
 
 export default createRouter({
   history: createWebHashHistory(),
@@ -36,6 +37,11 @@ export default createRouter({
       path: '/start',
       name: 'start',
       component: StartStart
+    },
+    {
+      path: '/vsettings',
+      name: 'vsettings',
+      component: VSettings
     }
   ]
 })
